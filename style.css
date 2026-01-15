@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ffe8aa, #ffb6d9, #f19fdd);
+    min-height: 100vh;
+
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box {
+    color: rgb(45, 43, 43);
+}
+
+.stats p {
+    color: rgb(23, 23, 23);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav .logo {
+    font-size: 65px;
+    font-family: 'Brush Script MT', cursive;
+    color: #6b4f8a;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2c0051;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.home-colorblack{
+    color: rgb(41, 39, 39);
+    opacity: 0.6;
+    
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+}
+
+.text-box {
+    max-width: 500px;
+}
+
+.text-box h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stats p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 20px;
+    background: #444;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #333;
+}
+
+.hero-image img {
+    width: 480px;
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  margin-top: auto;
+  height: 40px;
+  overflow: hidden;
+}
+
+footer img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+}
+
+footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
